@@ -20,7 +20,7 @@ let listedPlanets;
     });
 
 
-     // Below this comment we call the appropriate helper functions to pick a planet fom the list of planets and add that information to your destination.
+     // Below this comment we call the appropriate  functions to pick a planet fom the list of planets and add that information to your destination.
 
      form.addEventListener("submit", function(event){
       event.preventDefault();
