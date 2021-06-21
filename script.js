@@ -12,7 +12,7 @@ let listedPlanets;
         listedPlanets = result;
         pickPlanet(listedPlanets);
         let index = pickPlanet(listedPlanets);
-        addDestinationInfo(document, index.name, index.diameter, index.star, index.distance, index.moon, index.image);
+        addDestinationInfo(document, index.name, index.diameter, index.star, index.distance, index.moons, index.image);
 
         //console.log(listedPlanets);
     }).then(function () {
